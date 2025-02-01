@@ -1,0 +1,210 @@
+body {
+    /*background-color: #FAC01E;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+p {
+    font-size: 120%;
+    color: dimgray;
+    margin: 5px;
+}
+
+p.important  {
+    border-style: solid; 
+    display: inline-block; 
+    border-width: 5px; 
+    border-color: rgb(100,50,80);
+}
+
+.info{
+    border-style: solid; 
+    
+    border-width: 5px; 
+    border-color: rgb(56, 192, 101);
+    text-align: center;
+    
+}
+
+
+
+.center { display: block; 
+        margin: auto; 
+    }
+
+.centertext {
+     text-align: center;
+     }
+
+ img:hover {
+    width: 60%;
+    height: 60%;
+    ;
+}
+
+figure {
+    float: left;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin rgb(243, 9, 9) solid;
+    padding-top: 100;
+    }
+    figcaption{
+    caption-side: bottom;
+    }
+ /* from here Css selectors exercise is started */
+table,tr,th,td {
+    border: 3px solid black;
+   border-color: tomato;
+}
+/* by name */
+li{
+
+    color: teal;
+    font-style: italic;
+}
+/* by id */
+#id1 {
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+/* by class */
+.right {
+    text-align: right;
+    color: #050;
+}
+/* universal */
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+/* decendent selector */
+div p 
+{
+    background-color: aliceblue;
+}
+
+/* child selector */
+div>h1 {
+    background-color: aqua;
+}
+
+/* sibling */
+
+div+h2 {
+    background-color: black;
+    color: aliceblue;
+}
+
+/* sub sibling */
+div~h2{
+    background-color: black;
+    color: aliceblue;
+}
+
+/* anchor psuedo class */
+/* unvisited link */ 
+a:link { color: #FF0000; } 
+/* visited link */ 
+a:visited { color: #00FF00; } 
+/* mouse over link */ 
+a:hover { color: #FF00FF; } 
+/* selected link */
+a:active { color: #0000FF; }
+
+/* pseudo + html */
+a.highlight:hover {
+    color: #ff0000;
+    font-size: 22px;
+}
+
+/* tooltip hover 
+p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+ }
+  
+div:hover p {
+    display: block;
+}
+
+/* pseudo first child */
+p:first-child {
+    color: blue;
+}
+
+/* first line element */
+h4::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}
+
+/* first letter */
+h5::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+/* html + */
+h6.intro::first-letter {
+    color: #ff0000;
+    font-size: 200%;
+}
+ /* emoji 
+ h1::after {
+    content: url(smiley.gif);
+    
+}
+h1::before {
+    content: url(smiley.gif);
+}
+
+/* selection */
+::selection {
+  color: red;
+  background: yellow;
+}
+
+/* Attribute selectors */
+/* CSS [attribute] Selector */
+a[target] {
+    background-color: yellow;
+}
+/* CSS [attribute="value"] Selector */
+a[target="_blank"] {
+    background-color: rgb(85, 199, 151);
+}
+
+/* CSS [attribute~="value"] Selector */
+[title~="flower"] {
+    border: 5px solid yellow;
+  }
+
+/* CSS [attribute|="value"] Selector */
+[class|="top"] {
+    background: yellow;
+  }
+
+/* CSS [attribute^="value"] Selector */
+[class^="top"] {
+    background: yellow;
+  }
+
+/* CSS [attribute$="value"] Selector */
+[class$="test"] {
+    background: yellow;
+  }
+
+
+/* CSS [attribute*="value"] Selector
+[class*="te"] {
+    background: yellow;
+  }*/
+
+  
