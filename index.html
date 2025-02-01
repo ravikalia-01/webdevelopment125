@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDDM Project</title>
+    <link rel="stylesheet" href="/add.css">
+
+</head>
+<body>
+    <h1 class="centertext" title="flower">Hello World! - Ravi Kumar</h1>
+    <p class="important"> I am Ravi Kumar. I am from India and it is a very beautiful country having a large no. of people belongs to different religions and living there very peacefully and together. India is known for her anicent architechet and rich history.</p>
+    <p class="info">This is the picture of anicient temple of lord Vishnu in Hampi.</p>
+    <figure>
+       <p> <img src="/humpi.avif" alt="hampi image">
+        <figcaption>The Hampi in the ancient city of Karnataka is completely built of burnt bricks, and local granite from that also placed lime mortar. It is recognised that the architecture of Hampi is the advanced architecture constructed in between 14<sup>th</sup> to 16<sup>th</sup> century.
+        </figcaption>
+    </p>
+    </figure> 
+    <table>
+        <tr>
+            <th colspan="3">type of css selector</th>
+        </tr>
+        <tr>
+            <th>Sr No.</th>
+            <th>Css Selector</th>
+            <th>defination</th>
+        </tr>
+        <tr>
+            <th>1.</th>
+            <th>Simple Selector</th>
+            <td>select elements based on name, id, class</td>
+        </tr>
+        <tr>
+            <th>2.</th>
+            <th>Combinator selector</th>
+            <td>select elements based on a specific relationship between them</td>
+        </tr>
+        <tr>
+            <th>3.</th>
+            <th>Pseudo-class selector</th>
+            <td>select elements based on a certain state</td>
+        </tr>
+        <tr>
+            <th>4.</th>
+            <th>Pseudo-Element selector</th>
+            <td>select and style a part of an element</td>
+        </tr>
+        <tr>
+            <th>5.</th>
+            <th>Attribute Selector</th>
+            <td>select elements based on an attribute or attribute value</td>
+        </tr>
+    </table>
+    <ol type="1">
+        <li>Simple Selector
+            <ul type="circle">
+                <li>CSS element Selector:-
+                    The element selector selects HTML elements based on the element name.</li>
+                    <li id="id1">CSS id Selector :-
+                        The id selector uses the id attribute of an HTML element to select a specific element.
+                        
+                        The id of an element is unique within a page, so the id selector is used to select one unique element!</li>
+                        <li class="right">CSS class Selector :-
+                            The class selector selects HTML elements with a specific class attribute.
+                            
+                            To select elements with a specific class, write a period (.) character, followed by the class name.</li>
+                            <li>CSS Universal Selector: -
+                                The universal selector (*) selects all HTML elements on the page.</li>
+                                <li>CSS Grouping Selector : -
+                                    The grouping selector selects all the HTML elements with the same style definitions.
+                                    
+                                    Look at the following CSS code (the h1, h2, and p elements have the same style definitions)</li>
+
+            </ul>
+            </li>
+            <li>Combinator selectors
+            <ul>
+                <li>Descendant Combinator: -
+                    The descendant combinator matches all elements that are descendants of a specified element.</li>
+                <li>Child Combinator (>) : -
+                    The child combinator selects all elements that are the children of a specified element.
+                    </li>
+                <li>Next Sibling Combinator (+): -
+                    The next sibling combinator is used to select an element that is directly after another specific element.
+                    
+                    Sibling elements must have the same parent element, and "adjacent" means "immediately following".</li>    
+                <li>Subsequent-sibling Combinator (~): -
+                    The subsequent-sibling combinator selects all elements that are next siblings of a specified element.
+                </li>
+
+
+            </ul>
+        </li>
+        <li>CSS Pseudo-classes
+            <ul>
+                <li>
+                    Anchor Pseudo-classes:-
+                    Links can be displayed in different ways:
+                    
+                    /* unvisited link */
+                    a:link {
+                    color: #FF0000;
+                    }
+
+                    /* visited link */
+                    a:visited {
+                    color: #00FF00;
+                    }
+
+                    /* mouse over link */
+                    a:hover {
+                    color: #FF00FF;
+                    }
+
+                    /* selected link */
+                    a:active {
+                    color: #0000FF;
+                    }
+                </li>
+                <li>
+                    Pseudo-classes and HTML Classes : -
+                    Pseudo-classes can be combined with HTML classes:
+
+                    When you hover over the link in the example, it will change color:
+                    a.highlight:hover {
+                        color: #ff0000;
+                    }
+                </li>
+                <li>Hover on &lt; div &gt; : -
+                    An example of using the :hover pseudo-class on a &lt; div &gt; element:div:hover {
+                        background-color: blue;
+                      } </li>
+                <li>
+                    Simple Tooltip Hover : -
+                    Hover over a &lt; div &gt;  element to show a &lt; p &gt;  element (like a tooltip):
+
+                    Hover over me to show the &lt; p &gt;  element.
+                </li>
+                <li>
+                     CSS - The :first-child Pseudo-class : -
+                    The :first-child pseudo-class matches a specified element that is the first child of another element.
+                </li>
+            </ul>
+        </li>
+        <li>CSS Pseudo-elements
+            <ul>
+                <li>
+                    The ::first-line Pseudo-element : -
+                    The ::first-line pseudo-element is used to add a special style to the first line of a text.
+                </li>
+                <li>
+                    The ::first-letter Pseudo-element : -
+                    The ::first-letter pseudo-element is used to add a special style to the first letter of a text.
+                </li>
+
+                <li>
+                    Pseudo-elements and HTML Classes :-
+                    Pseudo-elements can be combined with HTML classes.
+                </li>
+                <li>
+                    Multiple Pseudo-elements : -
+                    Several pseudo-elements can also be combined.
+                </li>
+                <li>
+                    CSS - The ::before Pseudo-element : -
+                    The ::before pseudo-element can be used to insert some content before the content of an element.
+                </li>
+                <li>
+                    CSS - The ::after Pseudo-element : -
+                    The ::after pseudo-element can be used to insert some content after the content of an element.
+                </li>
+                <li>
+                    CSS - The ::selection Pseudo-element : -
+                    The ::selection pseudo-element matches the portion of an element that is selected by a user.
+
+                    The following CSS properties can be applied to ::selection: color, background, cursor, and outline.
+                </li>
+            </ul>
+
+        </li>
+        <li>Attribute selectors
+            <ul>
+                <li>
+                    CSS [attribute] Selector : -
+                    The [attribute] selector is used to select elements with a specified attribute.
+                </li>
+                <li>
+                    CSS [attribute="value"] Selector : -
+                    The [attribute="value"] selector is used to select elements with a specified attribute and value.
+                </li>
+                <li>
+                    CSS [attribute~="value"] Selector : -
+                    The [attribute~="value"] selector is used to select elements with an attribute value containing a specified word.
+
+                    The following example selects all elements with a title attribute that contains a space-separated list of words, one of which is "flower":
+                </li>
+                <li>
+                    CSS [attribute|="value"] Selector : -
+                    The [attribute|="value"] selector is used to select elements with the specified attribute, whose value can be exactly the specified value, or the specified value followed by a hyphen (-).
+
+                    Note: The value has to be a whole word, either alone, like class="top", or followed by a hyphen( - ), like class="top-text".
+                </li>
+                <li>
+                    CSS [attribute^="value"] Selector : -
+                    The [attribute^="value"] selector is used to select elements with the specified attribute, whose value starts with the specified value.
+
+                    The following example selects all elements with a class attribute value that starts with "top":
+
+                    Note: The value does not have to be a whole word!
+                </li>
+                <li>
+                    CSS [attribute$="value"] Selector
+                    The [attribute$="value"] selector is used to select elements whose attribute value ends with a specified value.
+
+                    The following example selects all elements with a class attribute value that ends with "test":
+
+                    Note: The value does not have to be a whole word!  
+                </li>
+                <li>
+                    CSS [attribute*="value"] Selector
+                    The [attribute*="value"] selector is used to select elements whose attribute value contains a specified value.
+
+                    The following example selects all elements with a class attribute value that contains "te":
+
+                    Note: The value does not have to be a whole word!
+                </li>
+            </ul>
+
+        </li>
+    </ol>
+
+    <div>
+        <p>this is desendent Selector.</p>
+    </div>
+
+    <div>
+        <h1> child selector</h1>
+
+    </div>
+    <div>
+        sibling selector
+
+    </div>
+    <h2> sibling</h2>
+    <p>sub sibling</p>
+    <h2>sub sibling </h2>
+    <a href="https://www.w3schools.com/css/css_combinators.asp">css selector link</a>
+    <a class="highlight" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_pseudo-class" class="highlight">pseudo class + html</a>
+    
+    
+
+    <p>This is some text.</p>
+    <p>This is some text.</p>
+
+    <div>
+        <p>This is some text.</p>
+         <p>This is some text.</p>
+    </div>
+
+    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et, repudiandae officia perspiciatis porro totam non eos deserunt maxime eligendi illum, dicta sed, nihil a laborum qui dolore ducimus voluptatum!</h4>
+
+    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quo, ipsum eligendi ex vel dolorem voluptatum ullam error ducimus totam sapiente reiciendis illum! Necessitatibus consequatur architecto quod at quisquam nam.
+    </h5>
+
+    <h6 class="intro">This is an introduction.</h6>
+    <h1 class="topcontent">this is about adding emojis.</h1>
+
+    <!-- attribute selectors-->
+    <a href="https://www.w3schools.com">w3schools.com</a>
+    <a href="http://www.disney.com" target="_blank">disney.com</a>
+    <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+
+
+    <div class="first_test">The first div element.</div>
+    <div class="second">The second div element.</div>
+    <div class="my-test">The third div element.</div>
+    <p class="mytest">This is some text in a paragraph.</p>
+
+
+</body>
+</html>
